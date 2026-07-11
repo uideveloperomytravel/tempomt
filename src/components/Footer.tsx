@@ -21,7 +21,12 @@ export function Footer({ currentPage, onNavigate }: FooterProps) {
       <div className="max-w-7xl mx-auto px-4 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-8">
           <div className="lg:col-span-2">
-            <img src={imgLogo} alt="OMT Logo" className="w-auto h-10 mb-4 brightness-0 invert" />
+            <img
+              src={imgLogo}
+              alt="OMT Logo"
+              className="w-auto h-10 mb-4"
+              style={{ background: '#fff', padding: '0px 8px', borderRadius: '20px' }}
+            />
             <p className="text-gray-300 text-sm max-w-sm leading-relaxed">
               Your trusted travel partner for creating unforgettable journeys across India and around the world.
             </p>

@@ -5,7 +5,25 @@
       "Bash(npx --version)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001)",
       "Bash(npm ls *)",
-      "Bash(find / -maxdepth 6 -iname \"playwright\" -type d)"
+      "Bash(find / -maxdepth 6 -iname \"playwright\" -type d)",
+      "Bash(git mv *)",
+      "Bash(curl -s http://localhost:3000/src/index.css -o /tmp/served.css)",
+      "Bash(curl -s \"http://localhost:3000/src/index.css\")",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(git checkout *)",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Goa%20beach%20India&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1200&format=json\")",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Kerala%20backwaters%20houseboat&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size&format=json\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&titles=File:Kerala_backwaters,_Houseboat,_India.jpg&prop=imageinfo&iiprop=url&iiurlwidth=1600&format=json\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Coorg%20hills%20Karnataka&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size&format=json\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Shimla%20snow%20town&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size&format=json\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Shimla%20snowfall%20hillside&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=url|size&format=json\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Shimla%20winter%20snow%20houses&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=url|size&format=json\")",
+      "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/goa_final.jpg src/assets/goa-vagator-beach.jpg)",
+      "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/kerala_final.jpg src/assets/kerala-backwaters-houseboat.jpg)",
+      "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/ooty_final.jpg src/assets/ooty-tea-plantation.jpg)",
+      "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/shimla_final.jpg src/assets/shimla-snow.jpg)"
     ]
   }
 }

@@ -70,14 +70,18 @@ export function PackagesPage({ currentPage, onNavigate, onEnquire, activeFilter,
             <button
               key={key}
               onClick={() => onFilterChange(key)}
-              className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all border ${
+              className={`group px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all border ${
                 activeFilter === key
                   ? 'bg-[#155DFC] text-white border-[#155DFC] shadow-md'
                   : 'bg-white text-gray-700 border-gray-200 hover:border-[#155DFC] hover:text-[#155DFC]'
               }`}
             >
               {label}
-              <span className={`ml-1.5 ${activeFilter === key ? 'text-blue-100' : 'text-gray-400'}`}>
+              <span
+                className={`ml-1.5 ${
+                  activeFilter === key ? 'text-blue-100' : 'text-gray-400 group-hover:text-[#155DFC]'
+                }`}
+              >
                 ({countsByCategory[key] ?? 0})
               </span>
             </button>

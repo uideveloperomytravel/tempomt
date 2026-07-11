@@ -2,10 +2,10 @@ import imgThailand from "figma:asset/3c5cdd1b11b55adc84f1abf772de7dc53629134a.pn
 import imgBali from "figma:asset/9b4b55218bf29fea824686411a1f02abd191926e.png";
 import imgSingapore from "figma:asset/8a0c90534a15869a007842b30714ab6ecc18f127.png";
 import imgDubai from "figma:asset/3e195ca68f361e2a08c4a56843d9ac08a394d044.png";
-import imgGoa from "figma:asset/cc176334d1d2f05c05a68374eb963671a620307d.png";
-import imgKerala from "figma:asset/22d626b5db71fa1b442bc1ca0bdc4f940f9dd4a9.png";
-import imgOoty from "figma:asset/04f001a258d8ba3ec30ead5b222b8cc27ab8bd45.png";
-import imgShimla from "figma:asset/c0b8ff5284804a493b219148448ef602d7fd555f.png";
+import imgGoa from "../assets/goa-vagator-beach.jpg";
+import imgKerala from "../assets/kerala-backwaters-houseboat.jpg";
+import imgOoty from "../assets/ooty-tea-plantation.jpg";
+import imgShimla from "../assets/shimla-snow.jpg";
 
 export type CategoryKey =
   | 'Honeymoon'
