@@ -58,7 +58,7 @@ export function PackageEnquiryPopup({ isOpen, onClose, packageDetails }: Package
       const res = await fetch(url, {
         method: 'POST',
         mode: 'cors',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
         body: JSON.stringify(payload)
       });
       const result = await res.json().catch(() => ({}));

@@ -23,7 +23,9 @@
       "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/goa_final.jpg src/assets/goa-vagator-beach.jpg)",
       "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/kerala_final.jpg src/assets/kerala-backwaters-houseboat.jpg)",
       "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/ooty_final.jpg src/assets/ooty-tea-plantation.jpg)",
-      "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/shimla_final.jpg src/assets/shimla-snow.jpg)"
+      "Bash(cp /private/tmp/claude-501/-Users-akashk-Desktop-workspace-temper-tempomt/5b7a9475-47af-43d2-807f-bda2f4a7effa/scratchpad/imgs/shimla_final.jpg src/assets/shimla-snow.jpg)",
+      "Bash(curl -s -i -X OPTIONS https://script.google.com/macros/s/AKfycbynEZ5hyJ7ykL8O42yUr6z3-1gdonW09xyZ0AI_kAPnXO1xEAelblcvujAK7niazLPj/exec -H 'Origin: https://www.omytravel.com' -H 'Access-Control-Request-Method: POST' -H 'Access-Control-Request-Headers: content-type')",
+      "Bash(curl -s -i -L -X POST https://script.google.com/macros/s/AKfycbynEZ5hyJ7ykL8O42yUr6z3-1gdonW09xyZ0AI_kAPnXO1xEAelblcvujAK7niazLPj/exec -H 'Origin: https://www.omytravel.com' -H 'Content-Type: text/plain;charset=utf-8' -d '{\"packageName\":\"cors-diagnostic-test\"}')"
     ]
   }
 }
