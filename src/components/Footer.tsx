@@ -1,4 +1,4 @@
-import { Mail, MapPin, ShieldCheck, Home, Package, Info, Phone } from 'lucide-react';
+import { Mail, MapPin, ShieldCheck, Home, Package, Info, Phone, Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import imgLogo from '../assets/omtlogo.svg';
 import type { Page } from './Header';
 
@@ -6,6 +6,13 @@ interface FooterProps {
   currentPage: Page;
   onNavigate: (page: Page) => void;
 }
+
+const SOCIAL_LINKS = [
+  { label: 'Facebook', href: 'https://www.facebook.com/o.my.travel.tour/', icon: Facebook },
+  { label: 'Instagram', href: 'https://www.instagram.com/o.my.travel/', icon: Instagram },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/company/omytravel/', icon: Linkedin },
+  { label: 'YouTube', href: 'https://www.youtube.com/@OMy.Travel', icon: Youtube },
+];
 
 const TAB_ITEMS: { label: string; page: Page; icon: typeof Home }[] = [
   { label: 'Home', page: 'home', icon: Home },
@@ -33,6 +40,21 @@ export function Footer({ currentPage, onNavigate }: FooterProps) {
             <div className="mt-4 inline-flex items-center gap-2 bg-white/10 border border-white/15 rounded-lg px-3 py-2">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
               <span className="text-xs text-gray-200">IATA Accredited Agency &middot; Code 14038640</span>
+            </div>
+
+            <div className="flex items-center gap-3 mt-5">
+              {SOCIAL_LINKS.map(({ label, href, icon: Icon }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 border border-white/15 hover:bg-white/20 transition-colors"
+                >
+                  <Icon className="w-4 h-4 text-white" />
+                </a>
+              ))}
             </div>
           </div>
 
