@@ -150,7 +150,7 @@ export default function App() {
         <div className="absolute inset-0 bg-black/30" />
         <div className="relative max-w-7xl mx-auto px-8">
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold mb-4">What kind of holiday are you looking for enjoyment?</h1>
+            <h1 className="text-4xl font-bold mb-4">What kind of holiday are you looking for?</h1>
             <p className="text-blue-100">Pick a style below to see matching packages, curated by our travel experts.</p>
           </div>
           <div className="bg-[rgba(24,23,23,0.69)] rounded-xl p-6">
