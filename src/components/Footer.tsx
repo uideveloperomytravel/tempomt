@@ -7,9 +7,18 @@ interface FooterProps {
   onNavigate: (page: Page) => void;
 }
 
+function PinterestIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      <path d="M12 0a12 12 0 0 0-4.373 23.178c-.035-.987-.008-2.174.24-3.25.266-1.113 1.712-7.213 1.712-7.213s-.437-.87-.437-2.157c0-2.02 1.171-3.53 2.63-3.53 1.24 0 1.84.932 1.84 2.05 0 1.248-.795 3.116-1.205 4.848-.343 1.448.727 2.63 2.155 2.63 2.586 0 4.577-2.727 4.577-6.663 0-3.484-2.503-5.92-6.077-5.92-4.14 0-6.573 3.106-6.573 6.317 0 1.25.482 2.591 1.084 3.32a.436.436 0 0 1 .101.419c-.11.458-.355 1.448-.404 1.65-.063.264-.207.32-.477.194-1.782-.83-2.896-3.436-2.896-5.532 0-4.501 3.27-8.635 9.428-8.635 4.949 0 8.797 3.526 8.797 8.24 0 4.914-3.099 8.868-7.4 8.868-1.446 0-2.804-.75-3.269-1.635l-.89 3.395c-.322 1.24-1.192 2.792-1.774 3.738A12 12 0 1 0 12 0z" />
+    </svg>
+  );
+}
+
 const SOCIAL_LINKS = [
   { label: 'Facebook', href: 'https://www.facebook.com/o.my.travel.tour/', icon: Facebook },
   { label: 'Instagram', href: 'https://www.instagram.com/o.my.travel/', icon: Instagram },
+  { label: 'Pinterest', href: 'https://in.pinterest.com/omytravel/', icon: PinterestIcon },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/company/omytravel/', icon: Linkedin },
   { label: 'YouTube', href: 'https://www.youtube.com/@OMy.Travel', icon: Youtube },
 ];
