@@ -6,6 +6,7 @@ import { ContactPage } from './components/ContactPage';
 import { AboutPage } from './components/AboutPage';
 import { PackagesPage } from './components/PackagesPage';
 import { PackageEnquiryPopup } from './components/PackageEnquiryPopup';
+import { SeoContent } from './components/SeoContent';
 import {
   CATEGORY_FILTERS,
   PACKAGES,
@@ -324,6 +325,8 @@ export default function App() {
           ))}
         </div>
       </section>
+
+      <SeoContent onNavigate={navigate} onGoToPackages={goToPackages} />
 
       <Footer currentPage={currentPage} onNavigate={navigate} />
 
