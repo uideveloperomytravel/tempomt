@@ -116,7 +116,7 @@ export function Footer({ currentPage, onNavigate }: FooterProps) {
         </div>
 
         <div className="border-t border-white/15 mt-10 pt-6 text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} O My Travel. All rights reserved.
+          © {new Date().getFullYear()} OMy Travel. All rights reserved.
         </div>
       </div>
     </footer>
